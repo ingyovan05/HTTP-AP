@@ -8,11 +8,11 @@ import { User } from "../models/user"
 export const localhostUserToModel = ( localhostUser ) => {
 
     const {
-        avatar,
         balance,
         first_name,
         gender,
         id,
+        avatar,
         isActive,
         last_name,
     } = localhostUser;
